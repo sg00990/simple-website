@@ -1,0 +1,63 @@
+/* Fronts from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/* General Content */
+
+body {
+    background-color: darkslategrey;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    width: 700px;
+    margin: auto;
+    color: rgb(255, 248, 248); 
+}
+
+h1, h2 {
+    font-family: "Merriweather", serif;
+    clear:both;
+} 
+.topnav {
+    background-color: rgb(74, 119, 136);
+    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.topnav a {
+    float: left;
+    color:rgb(255, 248, 248);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: lightskyblue;
+    color:rgb(255, 248, 248);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.topnav a.active {
+    background-color: rgb(145, 163, 168);
+    color: white;
+}
+a {
+    color: rgba(255, 255, 255, 0.678);
+  }
+button {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(91, 125, 145);
+}
+button.hover {
+    opacity: .75;
+}
+#facts {
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    color: rgb(172, 206, 206);
+}
